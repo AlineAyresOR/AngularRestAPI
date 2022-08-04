@@ -1,0 +1,5 @@
+<div *ngIf="chargePeople">
+  <h1 *ngFor="let people of chargePeople.results">Nome:{{people.name}}</h1>
+</div>
+
+<button (click)="setPeople()">Personagens</button>
